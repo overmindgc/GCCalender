@@ -13,6 +13,10 @@
 		B75E51151B7304CB0077E6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75E51131B7304CB0077E6E6 /* Main.storyboard */; };
 		B75E51171B7304CB0077E6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75E51161B7304CB0077E6E6 /* Assets.xcassets */; };
 		B75E511A1B7304CB0077E6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75E51181B7304CB0077E6E6 /* LaunchScreen.storyboard */; };
+		B75E513A1B7363D40077E6E6 /* GCCalenderSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75E51351B7363D40077E6E6 /* GCCalenderSquareView.m */; };
+		B75E513B1B7363D40077E6E6 /* GCCalenderTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75E51371B7363D40077E6E6 /* GCCalenderTopBarView.m */; };
+		B75E513C1B7363D40077E6E6 /* GCCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75E51391B7363D40077E6E6 /* GCCalenderView.m */; };
+		B75E513E1B73647C0077E6E6 /* GCCalender.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75E513D1B73647C0077E6E6 /* GCCalender.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		B75E51161B7304CB0077E6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75E51191B7304CB0077E6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B75E511B1B7304CB0077E6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75E51341B7363D40077E6E6 /* GCCalenderSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCCalenderSquareView.h; path = GCCalender/GCCalenderSquareView.h; sourceTree = "<group>"; };
+		B75E51351B7363D40077E6E6 /* GCCalenderSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCCalenderSquareView.m; path = GCCalender/GCCalenderSquareView.m; sourceTree = "<group>"; };
+		B75E51361B7363D40077E6E6 /* GCCalenderTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCCalenderTopBarView.h; path = GCCalender/GCCalenderTopBarView.h; sourceTree = "<group>"; };
+		B75E51371B7363D40077E6E6 /* GCCalenderTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCCalenderTopBarView.m; path = GCCalender/GCCalenderTopBarView.m; sourceTree = "<group>"; };
+		B75E51381B7363D40077E6E6 /* GCCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCCalenderView.h; path = GCCalender/GCCalenderView.h; sourceTree = "<group>"; };
+		B75E51391B7363D40077E6E6 /* GCCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCCalenderView.m; path = GCCalender/GCCalenderView.m; sourceTree = "<group>"; };
+		B75E513D1B73647C0077E6E6 /* GCCalender.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = GCCalender.xcassets; path = GCCalender/GCCalender.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				B75E51091B7304CB0077E6E6 /* GCCalenderDemo */,
+				B75E51221B73051B0077E6E6 /* GCCalender */,
 				B75E51081B7304CB0077E6E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +89,20 @@
 				B75E510B1B7304CB0077E6E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B75E51221B73051B0077E6E6 /* GCCalender */ = {
+			isa = PBXGroup;
+			children = (
+				B75E513D1B73647C0077E6E6 /* GCCalender.xcassets */,
+				B75E51341B7363D40077E6E6 /* GCCalenderSquareView.h */,
+				B75E51351B7363D40077E6E6 /* GCCalenderSquareView.m */,
+				B75E51361B7363D40077E6E6 /* GCCalenderTopBarView.h */,
+				B75E51371B7363D40077E6E6 /* GCCalenderTopBarView.m */,
+				B75E51381B7363D40077E6E6 /* GCCalenderView.h */,
+				B75E51391B7363D40077E6E6 /* GCCalenderView.m */,
+			);
+			name = GCCalender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +164,7 @@
 			files = (
 				B75E511A1B7304CB0077E6E6 /* LaunchScreen.storyboard in Resources */,
 				B75E51171B7304CB0077E6E6 /* Assets.xcassets in Resources */,
+				B75E513E1B73647C0077E6E6 /* GCCalender.xcassets in Resources */,
 				B75E51151B7304CB0077E6E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75E513A1B7363D40077E6E6 /* GCCalenderSquareView.m in Sources */,
+				B75E513C1B7363D40077E6E6 /* GCCalenderView.m in Sources */,
+				B75E513B1B7363D40077E6E6 /* GCCalenderTopBarView.m in Sources */,
 				B75E51121B7304CB0077E6E6 /* ViewController.m in Sources */,
 				B75E510F1B7304CB0077E6E6 /* AppDelegate.m in Sources */,
 				B75E510C1B7304CB0077E6E6 /* main.m in Sources */,
@@ -261,7 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GCCalenderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = overmindgc.com.GCCalenderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +304,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GCCalenderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = overmindgc.com.GCCalenderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

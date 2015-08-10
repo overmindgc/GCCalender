@@ -10,6 +10,15 @@
 
 @interface GCCalenderSquareView : UIView
 
-@property (nonatomic, copy) NSString *day;
+@property (nonatomic, assign) NSInteger day;
+
+@property (nonatomic, assign) NSInteger year;
+
+@property (nonatomic, assign) NSInteger month;
+
+@property (nonatomic, copy) NSString *topText;
+
+//当前各自是否是当前月
+@property (nonatomic, assign) BOOL isCurrentMonth;
 
 @end

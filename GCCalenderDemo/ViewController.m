@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GCCalenderView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view setBackgroundColor:[UIColor darkGrayColor]];
+    GCCalenderView *calenderView = [[GCCalenderView alloc] initWithFrame:CGRectMake(0, 0, GCC_SCREEN_WIDTH, GCC_SCREEN_HEIGHT)];
+    [self.view addSubview:calenderView];
 }
 
 - (void)didReceiveMemoryWarning {

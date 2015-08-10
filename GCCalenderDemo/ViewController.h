@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+/*屏幕宽高*/
+#define  GCC_SCREEN_WIDTH   [[UIScreen mainScreen] bounds].size.width
+#define  GCC_SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+
 @interface ViewController : UIViewController
 
 
